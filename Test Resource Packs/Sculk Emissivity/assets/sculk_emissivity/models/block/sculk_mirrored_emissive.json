@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_mirrored_all",
   "textures": {
-    "all": "prism_test:block/sculk_emissive"
+    "all": "sculk_emissivity:block/sculk_emissive"
   }
 }
