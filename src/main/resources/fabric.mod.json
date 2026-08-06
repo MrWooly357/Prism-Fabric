@@ -8,7 +8,9 @@
     "MrWooly357"
   ],
   "contact": {
-    "sources": ""
+    "homepage": "https://modrinth.com/project/prism_engine",
+    "sources": "https://github.com/MrWooly357/Prism-Fabric",
+    "issues": "https://github.com/MrWooly357/Prism-Fabric/issues"
   },
   "license": "MPL-2.0",
   "icon": "assets/prism/icon.png",
