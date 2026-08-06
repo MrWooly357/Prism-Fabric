@@ -10,7 +10,7 @@
         "type": "prism:enhanced",
         "model": {
           "type": "minecraft:model",
-          "model": "prism_test:block/sculk_emissive"
+          "model": "sculk_emissivity:block/sculk_emissive"
         },
         "emissivity": {
           "type": "emissive",

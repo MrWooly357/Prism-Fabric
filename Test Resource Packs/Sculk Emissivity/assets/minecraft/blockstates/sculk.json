@@ -26,17 +26,17 @@
           "fabric:type": "prism:enhanced",
           "model": [
             {
-              "model": "prism_test:block/sculk_emissive"
+              "model": "sculk_emissivity:block/sculk_emissive"
             },
             {
-              "model": "prism_test:block/sculk_mirrored_emissive"
+              "model": "sculk_emissivity:block/sculk_mirrored_emissive"
             },
             {
-              "model": "prism_test:block/sculk_emissive",
+              "model": "sculk_emissivity:block/sculk_emissive",
               "y": 180
             },
             {
-              "model": "prism_test:block/sculk_mirrored_emissive",
+              "model": "sculk_emissivity:block/sculk_mirrored_emissive",
               "y": 180
             }
           ],
