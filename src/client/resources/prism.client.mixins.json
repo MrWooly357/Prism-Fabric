@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "package": "net.mrwooly357.prism.client.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "BundleSelectedItemSpecialRendererMixin",
+    "CompositeModelMixin",
+    "ConditionalItemModelMixin",
+    "CuboidItemModelWrapperMixin",
+    "EmptyModelMixin",
+    "ItemStackRenderStateLayerRenderStateMixin",
+    "MissingItemModelMixin",
+    "RangeSelectItemModelMixin",
+    "SelectItemModelMixin",
+    "SpecialModelWrapperMixin",
+    "WrapperBakedItemModelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

@@ -1,0 +1,18 @@
+classTweaker v2 official
+
+#PrismRenderState injections.
+transitive-inject-interface net/minecraft/client/renderer/item/ItemStackRenderState$LayerRenderState net/mrwooly357/prism/client/render/item/PrismItemStackLayerRenderState
+
+#PrismModel injections.
+transitive-inject-interface net/minecraft/client/renderer/item/BundleSelectedItemSpecialRenderer net/mrwooly357/prism/client/render/item/model/PrismItemModel
+transitive-inject-interface net/minecraft/client/renderer/item/CompositeModel net/mrwooly357/prism/client/render/item/model/PrismItemModel
+transitive-inject-interface net/minecraft/client/renderer/item/ConditionalItemModel net/mrwooly357/prism/client/render/item/model/PrismItemModel
+transitive-inject-interface net/minecraft/client/renderer/item/CuboidItemModelWrapper net/mrwooly357/prism/client/render/item/model/PrismItemModel
+transitive-inject-interface net/minecraft/client/renderer/item/EmptyModel net/mrwooly357/prism/client/render/item/model/PrismItemModel
+transitive-inject-interface net/minecraft/client/renderer/item/MissingItemModel net/mrwooly357/prism/client/render/item/model/PrismItemModel
+transitive-inject-interface net/minecraft/client/renderer/item/RangeSelectItemModel net/mrwooly357/prism/client/render/item/model/PrismItemModel
+transitive-inject-interface net/minecraft/client/renderer/item/SelectItemModel net/mrwooly357/prism/client/render/item/model/PrismItemModel
+transitive-inject-interface net/minecraft/client/renderer/item/SpecialModelWrapper net/mrwooly357/prism/client/render/item/model/PrismItemModel
+
+#Field accessors.
+transitive-accessible field net/minecraft/client/renderer/item/ItemStackRenderState layers [Lnet/minecraft/client/renderer/item/ItemStackRenderState$LayerRenderState;

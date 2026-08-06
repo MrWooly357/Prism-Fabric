@@ -1,0 +1,63 @@
+{
+  "variants": {
+    "": {
+      "fabric:type": "fabric:composite",
+      "models": [
+        {
+          "fabric:type": "fabric:composite",
+          "models": [
+            {
+              "model": "minecraft:block/sculk"
+            },
+            {
+              "model": "minecraft:block/sculk_mirrored"
+            },
+            {
+              "model": "minecraft:block/sculk",
+              "y": 180
+            },
+            {
+              "model": "minecraft:block/sculk_mirrored",
+              "y": 180
+            }
+          ]
+        },
+        {
+          "fabric:type": "prism:enhanced",
+          "model": [
+            {
+              "model": "prism_test:block/sculk_emissive"
+            },
+            {
+              "model": "prism_test:block/sculk_mirrored_emissive"
+            },
+            {
+              "model": "prism_test:block/sculk_emissive",
+              "y": 180
+            },
+            {
+              "model": "prism_test:block/sculk_mirrored_emissive",
+              "y": 180
+            }
+          ],
+          "emissivity": {
+            "type": "emissive",
+            "light": {
+              "type": "specific",
+              "sky": {
+                "type": "custom",
+                "light_type": "sky",
+                "value": 5
+              },
+              "block": {
+                "type": "custom",
+                "light_type": "block",
+                "value": 5
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

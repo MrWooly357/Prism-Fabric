@@ -1,0 +1,34 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:block/sculk"
+      },
+      {
+        "type": "prism:enhanced",
+        "model": {
+          "type": "minecraft:model",
+          "model": "prism_test:block/sculk_emissive"
+        },
+        "emissivity": {
+          "type": "emissive",
+          "light": {
+            "type": "specific",
+            "sky": {
+              "type": "custom",
+              "light_type": "sky",
+              "value": 5
+            },
+            "block": {
+              "type": "custom",
+              "light_type": "block",
+              "value": 5
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": {
+      "fabric:type": "prism:enhanced",
+      "model": {
+        "model": "minecraft:block/glass"
+      },
+      "connectivity": {
+        "type": "horizontal",
+        "faces": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ],
+        "textures": "horizontal_glass_connectivity:glass_connectivity"
+      }
+    }
+  }
+}
